@@ -23,6 +23,7 @@ Para la sintonización de controles tipo cascada, tenemos los siguiente métodos
 #### 1.1.1. Sintonización Lazo Abierto
 En algunos sistemas, se pueden realizar pruebas de lazo abierto por separado para cada variable del control en cascada. Estas pruebas permiten sintonizar los controladores con métodos conocidos, considerando la interacción entre ambos lazos.
 
+💡**Ejemplo 1:**
 Si tenemos las siguiente funciones de transferencia, primiero debemos determinar cual de ellas es más rapida, y esta será la del lazo interno.
 * Función de transferencia 1 = $G_{1} = \frac{e^{-10s}}{15s + 1}$
   
@@ -56,15 +57,38 @@ El método consiste en aplicar un cambio de paso en la señal de la válvula de 
 
 
 
+### 1.3. Metodologías empíricas de lazo Cerrado
 
+#### 1.3.1. Método Hang (1994)
+
+💡**Ejemplo 2:** Siguiendo el siguiente ejemplos podemos ver el funcionamiento del método Hang
+
+* Función de transferencia 1 = $G_{1} = \frac{e^{-s}}{(s+1)^{2}}$
+  
+* Función de transferencia 2 = $G_{2} = \frac{e^{-\alpha s}}{\alpha s + 1}$
+* Tener en cuenta que: $\alpha = 0.1$
+
+Usando el método de Réle obtenemos los siguientes valores:
+
+$$T_{u2}   =   0.3 s$$
+$$K_{u2}   =   \frac{4d}{\pi a}$$
+
+**Sintonización del secundario**
+
+| **Controlador**        | **KP**                 |  **Ti**                   | **Td**                   |
+|------------------------|------------------------|---------------------------|--------------------------|
+| P                      | 0.5 Kcr                | Hay posiciones absolutas en una revolución                                |
+| PI                     | Operación de retorno durante encendido  | No require ninguna operación dentro de una revolución   |
+| PID                    | Bajo                                    |Alto                                                                        |
+
+Tabla 1. MMétodo Hang (1994)
 
 ## 4. Ejercicios
-**Validación de Modelo**
+
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
 ## 5. Conclusiones
-Los motores eléctricos, junto con los sensores y drivers, forman la base de innumerables aplicaciones industriales y tecnológicas. Su correcto funcionamiento depende de una integración efectiva de los diferentes componentes, desde la generación del movimiento hasta su regulación mediante señales de control y retroalimentación.
-El uso de tecnologías como PWM en los drivers y la incorporación de sensores de posición y corriente han permitido aumentar la eficiencia y precisión de los sistemas de automatización. Comprender estos conceptos es esencial para diseñar y optimizar motores en diversas aplicaciones, desde robótica hasta maquinaria industrial, garantizando un desempeño confiable y eficiente.
+El control en cascada mejora la estabilidad y precisión de un sistema al utilizar dos lazos de control: uno primario y uno secundario. La sintonización adecuada de estos lazos permite optimizar la respuesta del sistema ante perturbaciones y variaciones en la referencia.
 
 ## 6. Referencias
 * CHAPMAN. 2005. Maquinas eléctricas. Madrid: McGraw-Hill Interamericana
