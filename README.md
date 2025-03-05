@@ -89,6 +89,18 @@ $$K_{u2}   =   \frac{4d}{\pi a}$$
 
 Tabla 3. Método Hang (1994)
 
+Usando la tabla, y despejando los valores, obtenemos que:
+
+$$K_{p2}   =   0.45  * K_{u2}   =   0.45 * 1.99   =   0.89$$
+$$T_{i2}   =   \frac{T_{u2} }{1.2}   =  \frac{0.3}{1.2}   =   0.25$$
+
+**Sintonización del primario**
+Se ubica el secundario sintonizado dentro del lazo del primario para realizar la respectiva sintonización utilizando nuevamente el método del relé.
+Cuando se haya sintonizado por el método del réle, utilizamos nuevamente la Tabla 3., y obtenemos los siguientes resultados:
+
+$$K_{p1}   =   0.45  * K_{u1}   =   0.45 * 2.27   =   1.02$$
+$$T_{i1}   =   \frac{T_{u1} }{1.2}   =  \frac{5.56}{1.2}   =   4.63$$
+
 ## 4. Ejercicios
 
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
