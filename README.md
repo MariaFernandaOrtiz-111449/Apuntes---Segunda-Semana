@@ -1,10 +1,10 @@
 # Apuntes---Segunda-Semana
 Apuntes control de movimiento primer corte, Segunda Semana
 
-# MOTORES, SENSORES Y DRIVERS
-En esta clase, se habló de los tipos de motores existente en la industria, las diferencias entre sí y las características partículares de cada uno. Adicionalmente como desde SimScape - Matlab podemos hacer una validación de modelo del motor con el que queramos trabajar, esto desde ciertos parametros que nos entregan los fabricantes. 
-Para controlar su operación, los drivers actúan como amplificadores, convirtiendo señales de control en señales de alta potencia para alimentar los motores. En la industria, es común el uso de PWM (modulación por ancho de pulso) como método eficiente de control.
-Además, los sistemas de motores requieren sensores para garantizar precisión en su operación. Dispositivos como encoders y resolvers permiten medir la posición, velocidad y dirección del movimiento, mientras que otros sensores, como los de efecto Hall o shunt, se emplean para medir corriente y, por ende, inferir el torque. En los servomecanismos, la combinación de sensores, controladores y drivers asegura un movimiento preciso y eficiente.
+# CONTROL CASCADA
+El control en cascada se utiliza en sistemas en los que sea necesario mejorar la estabilidad y el rendimiento de un proceso, y que con los procesos convencionales de control no se pudo lograr. Se basa en el uso de dos o más lazos de control anidados, donde un controlador primario (casi siempre es el lazo externo) regula una variable principal y su salida se usa como referencia para un controlador secundario (casi siempre el lazo interno), que regula una variable intermedia del sistema.
+
+![]()
 
 ## 1. MOTORES
 Son dispositivso que convierten la energía eléctrica en energía mecánica a través de la interacción de campos magnéticos, esto mediante el paso de corriente eléctrica por un devanado, generando un campo magnético que induce el movimiento de un rotor. Se utilizan ampliamente en maquinaria industrial, electrodomésticos, vehículos eléctricos y sistemas automatizados, debido a su eficiencia, precisión y facilidad de control. 
