@@ -109,4 +109,4 @@ Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas t
 El control en cascada mejora la estabilidad y precisión de un sistema al utilizar dos lazos de control: uno primario y uno secundario. La sintonización adecuada de estos lazos permite optimizar la respuesta del sistema ante perturbaciones y variaciones en la referencia.
 
 ## 4. Referencias
-
+http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp
