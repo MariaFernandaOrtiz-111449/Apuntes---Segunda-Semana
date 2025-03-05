@@ -101,17 +101,12 @@ Cuando se haya sintonizado por el método del réle, utilizamos nuevamente la Ta
 $$K_{p1}   =   0.45  * K_{u1}   =   0.45 * 2.27   =   1.02$$
 $$T_{i1}   =   \frac{T_{u1} }{1.2}   =  \frac{5.56}{1.2}   =   4.63$$
 
-## 4. Ejercicios
+## 2. Ejercicios
 
 Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
-## 5. Conclusiones
+## 3. Conclusiones
 El control en cascada mejora la estabilidad y precisión de un sistema al utilizar dos lazos de control: uno primario y uno secundario. La sintonización adecuada de estos lazos permite optimizar la respuesta del sistema ante perturbaciones y variaciones en la referencia.
 
-## 6. Referencias
-* CHAPMAN. 2005. Maquinas eléctricas. Madrid: McGraw-Hill Interamericana
-* LANGSDORF. 1968. Principios de las maquinas de corriente continua. McGrawHill
-* SERRANO IRIBARNEGARAY. 1989: Fundamentos de maquinas eléctricas rotativas. Marcombo.
-* https://www.swe.siemens.com/spain/web/es/industry/drive_tech/variadores /Pages/Variadores.aspx
-* https://www.areatecnologia.com/electricidad/motor-trifasico.html
-* https://www.areatecnologia.com/electricidad/motores-corrientecontinua.html
+## 4. Referencias
+
