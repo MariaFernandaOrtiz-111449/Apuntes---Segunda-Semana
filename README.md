@@ -6,7 +6,10 @@ El control en cascada se utiliza en sistemas en los que sea necesario mejorar la
 
 ![]()
 
-## 1. MOTORES
+* Lazo primario (externo): Controla la variable de proceso principal (PV) y envía su señal de salida como referencia al lazo secundario.
+* Lazo secundario (interno): Responde más rápido y ajusta una variable intermedia que afecta directamente la variable principal, mejorando la respuesta del sistema.
+
+## 1. MÉTODOS DE SINTONIZACIÓN
 Son dispositivso que convierten la energía eléctrica en energía mecánica a través de la interacción de campos magnéticos, esto mediante el paso de corriente eléctrica por un devanado, generando un campo magnético que induce el movimiento de un rotor. Se utilizan ampliamente en maquinaria industrial, electrodomésticos, vehículos eléctricos y sistemas automatizados, debido a su eficiencia, precisión y facilidad de control. 
 
 >🔑 *Motores DC:* Los motores DC o motores de corriente continua, son dispositivos electromecánicos capaces de convertir energía eléctrica en energía mecánica.
