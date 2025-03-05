@@ -30,9 +30,21 @@ Si tenemos las siguiente funciones de transferencia, primiero debemos determinar
 
 Podemos darnos cuenta, que en este caso la función de transferencia con una respuesta más rápida es la función 2 ($\tau = 2$) por lo que esta función será del lazo secundario, es decir el lazo interno, así que empezamos con la sincronización del lazo secundario.
 
+**Sintonización Lazo secundario**
+
 $$G_{2} = \frac{0.5 e^{-s}}{2s + 1}$$
 
 $$K_{c2} = \frac{0.9}{K_{2}} * \left[ \frac{\tau 2}{tm} \right]  =  \frac{0.9}{0.5} * \left[ \frac{2}{1} \right] = 3.6$$
+$$T_{i2} = 3.33 * tm   =  3.33$$
+
+**Sintonización Lazo primario**
+
+$$T_{Total} = K_{1} * 1 = K_{1}  =  1$$
+$$t_{mTotal} = t_{m1} +  t_{m2}  =  10 + 1  =  11$$
+$$\tau _{Total} \approx  \tau _{1}  \approx  15$$
+$$K _{c1}  =  \frac{1.2}{K _{Total}} * \left[ \frac{\tau  _{Total} }{t _{mTotal}} \right]   =    \frac{1.2}{1} * \left[ \frac{15 }{11} \right]   =   1.63$$
+$$T _{i1}  =  2 * T _{mTotal} = 2 * 11  = 22$$
+$$T _{d1}  =  0.5 * T _{mTotal} = 0.5 * 11  = 5.5$$
 
 ### 1.2. Metodologías empíricas de lazo abierto Austin
 
