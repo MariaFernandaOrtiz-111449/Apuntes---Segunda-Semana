@@ -32,6 +32,19 @@ Podemos darnos cuenta, que en este caso la función de transferencia con una res
 
 $$G_{2} = \frac{0.5 e^{-s}}{2s + 1}$$
 
+$$K_{c2} = \frac{0.9}{K_{2}} * \left[ \frac{\tau 2}{tm} \right]  =  \frac{0.9}{0.5} * \left[ \frac{2}{1} \right] = 3.6$$
+
+### 1.2. Metodologías empíricas de lazo abierto Austin
+
+#### 1.2.1. Sintonización Lazo Abierto
+El método de Austin (1986) permite sintonizar controladores en cascada con una sola prueba, proporcionando ecuaciones de ajuste para un controlador primario PI o PID cuando el secundario es P o PI.
+
+#### 1.2.2. Sintonización 
+El método consiste en aplicar un cambio de paso en la señal de la válvula de control y registrar la respuesta de las variables secundarias y primarias. A partir de estas respuestas, se calculan la ganancia, la constante de tiempo y el tiempo muerto de ambos lazos.
+
+
+
+
 
 ## 4. Ejercicios
 **Validación de Modelo**
