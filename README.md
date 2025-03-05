@@ -55,7 +55,13 @@ El método de Austin (1986) permite sintonizar controladores en cascada con una 
 #### 1.2.2. Sintonización 
 El método consiste en aplicar un cambio de paso en la señal de la válvula de control y registrar la respuesta de las variables secundarias y primarias. A partir de estas respuestas, se calculan la ganancia, la constante de tiempo y el tiempo muerto de ambos lazos.
 
+| **Controlador**        | **KP**                 |  **Ti**                   | **Td**                   |
+|------------------------|------------------------|---------------------------|--------------------------|
+| P                      | 0.5 Kcr                | Infinity                  | 0                        |
+| PI                     |  0.45 Kcr              | Pcr / 1.2                 | 0                        |
+| PID                    |  0.6 Kcr               | Pcr / 2                   | 0.125 Pcr                |
 
+Tabla 1. Método Hang (1994)
 
 ### 1.3. Metodologías empíricas de lazo Cerrado
 
@@ -77,11 +83,11 @@ $$K_{u2}   =   \frac{4d}{\pi a}$$
 
 | **Controlador**        | **KP**                 |  **Ti**                   | **Td**                   |
 |------------------------|------------------------|---------------------------|--------------------------|
-| P                      | 0.5 Kcr                | Hay posiciones absolutas en una revolución                                |
-| PI                     | Operación de retorno durante encendido  | No require ninguna operación dentro de una revolución   |
-| PID                    | Bajo                                    |Alto                                                                        |
+| P                      | 0.5 Kcr                | Infinity                  | 0                        |
+| PI                     |  0.45 Kcr              | Pcr / 1.2                 | 0                        |
+| PID                    |  0.6 Kcr               | Pcr / 2                   | 0.125 Pcr                |
 
-Tabla 1. MMétodo Hang (1994)
+Tabla 3. Método Hang (1994)
 
 ## 4. Ejercicios
 
