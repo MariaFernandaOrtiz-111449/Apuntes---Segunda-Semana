@@ -111,7 +111,6 @@ $$T_{i1}   =   \frac{T_{u1} }{1.2}   =  \frac{5.56}{1.2}   =   4.63$$
 
 ## 2. Ejercicios
 
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
 
 ## 3. Conclusiones
 El control en cascada mejora la estabilidad y precisión de un sistema al utilizar dos lazos de control: uno primario y uno secundario. La sintonización adecuada de estos lazos permite optimizar la respuesta del sistema ante perturbaciones y variaciones en la referencia.
